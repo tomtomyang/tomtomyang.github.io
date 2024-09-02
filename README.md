@@ -10,7 +10,6 @@
 - **工程:** Git, Monorepo, Jest, ESLint
 - **部署:** CI/CD, Docker, Kubernetes
 - **网络:** CDN, HTTP, Edge Computing
-- **其他:** 沟通能力强, 热爱技术分享与技术沉淀
 
 ## 教育
 - 东北林业大学(211) - 计算机技术 - 硕士
