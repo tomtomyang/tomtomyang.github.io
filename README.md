@@ -6,9 +6,9 @@
 
 ## 技能
 - **前端:** JavaScript, TypeScript, CSS, HTML, React, RN
-- **后端:** Node.js, Koa, NestJS, Redis, MySQL, RabbitMQ
+- **后端:** Node.js, Koa, NestJS
 - **工程:** Git, Monorepo, Jest, ESLint
-- **部署:** CI/CD, Docker, Kubernetes
+- **部署:** CI/CD, Docker
 - **网络:** CDN, HTTP, Edge Computing
 
 ## 教育
