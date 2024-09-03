@@ -21,14 +21,14 @@
 
 ## 项目
 ### EdgeOne 独立站建设与开发者生态打造
-- 边缘函数 Playground Owner
 - 独立站 Example 板块 Owner
 - 独立站内容建设与 SEO
 
 ### EdgeOne 边缘函数能力建设与客户支持
-- 边缘函数 CLI 脚手架工具 Owner
-- 边缘函数标准化能力建设 Owner
-- 客户技术架构升级方案的规划与落地
+- 边缘函数 Playground Owner
+- 边缘函数 CLI 脚手架 Owner
+- 边缘函数标准化能力建设
+- 客户技术架构升级方案的设计与落地
 
 ### 腾讯云 CDN、EdgeOne 控制台与接入层开发
 - 需求开发与功能迭代
