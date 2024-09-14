@@ -1,7 +1,5 @@
 <img src='./image/profile.jpeg' alt='Tomtomyang 个人资料图片' width='200'/>
 
-# &lt;tomtomyang alt="dev"/&gt;
-
 ## 关于我
 
 我是 Tomtomyang，全栈开发工程师，你可以在 [Github](https://github.com/tomtomyang) 上找到我，目前我在 [@Tencent](https://github.com/Tencent) 工作。
