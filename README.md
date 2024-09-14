@@ -1,6 +1,6 @@
 <img src='./image/profile.jpeg' alt='Tomtomyang 个人资料图片' width='200'/>
 
-<tomtomyang alt="dev" />
+# &lt;tomtomyang alt="dev"/&gt;
 
 ## 关于我
 
