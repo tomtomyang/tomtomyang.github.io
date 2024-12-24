@@ -1,0 +1,14 @@
+{
+  "name": "tomtomyang.github.io",
+  "version": "1.0.0",
+  "author": "tomtomyang@tencent.com",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "node script/build.js"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "html-minifier": "^4.0.0",
+    "marked": "^4.0.0"
+  }
+}
