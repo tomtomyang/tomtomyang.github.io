@@ -1,23 +1,10 @@
 ---
 lang: zh
-title: 关于 Tomtomyang
+title: Tomtomyang
 description: Tomtomyang 的个人主页
-keywords: Tomtomyang, 全栈开发, 前端开发, Node.js 开发, 开发者
-author: tomtomyang@tencent.com
+keywords: Tomtomyang
 ---
 
-## 关于我
+👋 我是 Tomtomyang，一个 JavaScript 和 TypeScript 开发者，你可以在 [Github](https://github.com/tomtomyang) 上找到我。我喜欢篮球、羽毛球、游泳等运动，也热衷于购买衣服和球鞋，我喜欢看电影和电视剧，也喜欢出门旅行。
 
-我是 Tomtomyang，全栈开发工程师，你可以在 [Github](https://github.com/tomtomyang) 上找到我，目前我在 [@bytedance](https://github.com/bytedance) 工作。
-
-## 技能
-
-- 前端: JavaScript, TypeScript, CSS, HTML, React, Electron, RN, Vue.js
-- 后端: Node.js, Koa, NestJS, Redis, MySQL, MQ
-- 其他: CDN, HTTP, Serverless, Edge Computing, Docker
-
-## 经历
-
-- 字节跳动 - 正式 - 2024.11 至今
-- 腾讯 - 正式 - 2022.07～2024.11
-- 京东 - 实习 - 2021.05～2021.09
+自 2021 年起，我开始从事编程相关工作。在京东实习时，我主要做 React Native、Node.js 开发；毕业后来到腾讯，我主要做 CDN、边缘计算、JS Worker、NestJS 开发；目前在字节跳动，我主要做直播、Electron、端智能开发。
