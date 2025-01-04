@@ -1,9 +1,9 @@
 ---
+lang: zh
 title: 关于 Tomtomyang
 description: Tomtomyang 的个人主页
-keywords: Tomtomyang, tomtomyang, 全栈开发, 前端开发, Node.js 开发, 开发者
+keywords: Tomtomyang, 全栈开发, 前端开发, Node.js 开发, 开发者
 author: tomtomyang@tencent.com
-lang: zh
 ---
 
 ## 关于我

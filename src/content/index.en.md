@@ -1,9 +1,9 @@
 ---
+lang: en
 title: About Tomtomyang
 description: Tomtomyang's Personal Homepage
-keywords: Tomtomyang, tomtomyang, Full Stack Developer, Frontend Developer, Node.js Developer, Developer
+keywords: Tomtomyang, Full Stack Developer, Frontend Developer, Node.js Developer, Developer
 author: tomtomyang@tencent.com
-lang: en
 ---
 
 ## About Me
