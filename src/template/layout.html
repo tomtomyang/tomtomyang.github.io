@@ -26,41 +26,11 @@
     <link rel="shortcut icon" href="public/icon/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/public/icon/128.png">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 
     <link rel="stylesheet" href="public/lib/new.min.css">
     <link rel="stylesheet" href="public/lib/heti.min.css">
-    <style>
-        @font-face {
-        font-family: "Heti Song";
-        src:
-            local("Songti SC Regular"),
-            local("Songti TC Regular"),
-            local("SimSun"),
-            url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap");
-        }
-
-        @font-face {
-        font-family: "Heti Song";
-        font-weight: 200;
-        src:
-            local("Songti SC Light"),
-            local("Songti TC Light"),
-            local("SimSun"),
-            url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap");
-        }
-
-        @font-face {
-        font-family: "Heti Song";
-        font-weight: 600;
-        src:
-            local("Songti SC Bold"),
-            local("Songti TC Bold"),
-            local("SimSun"),
-            url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600&display=swap");
-        }
-    </style>
     <script defer src="public/lib/heti-addon.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -70,7 +40,11 @@
     </script>
 </head>
 <body>
-    <img src="public/image/profile.avif" width="128" height="128" style="border-radius: 50%;" alt="Tomtomyang">
-    <main class="heti heti--serif">{{content}}</main>
+    <header>
+        <img src="public/image/profile.avif" width="128" height="128" style="border-radius: 50%;" alt="Tomtomyang">
+    </header>
+    <main>
+        <content class="heti heti--song">{{content}}</content>
+    </main>
 </body>
 </html>
