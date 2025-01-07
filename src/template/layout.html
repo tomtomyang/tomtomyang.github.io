@@ -8,17 +8,27 @@
     <title>{{title}}</title>
     <meta name="description" content="{{description}}">
     <meta name="keywords" content="{{keywords}}">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    <meta property="og:url" content="https://tomtomyang.github.io">
+    <meta property="og:image" content="https://tomtomyang.github.io/public/image/profile.avif">
 
-    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link rel="icon" href="public/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/lib/new.min.css">
+    
+    <link rel="stylesheet" href="public/lib/heti.min.css">
+    <script defer src="public/lib/heti-addon.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const heti = new Heti('.heti');
+            heti.autoSpacing();
+        });
+    </script>
 </head>
 <body>
-    <header style="text-align: center;">
-        <img src="public/profile.jpeg" width="128" height="128" style="border-radius: 50%;">
-        <h1>&lt;tomtomyang /&gt;</h1>
-    </header>
-    
-    <main>{{content}}</main>
+    <img src="public/image/profile.avif" width="128" height="128" style="border-radius: 50%;" alt="profile">
+    <main class="heti heti--serif">{{content}}</main>
 </body>
 </html>

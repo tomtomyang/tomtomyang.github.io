@@ -39,9 +39,9 @@ async function build() {
             // 替换模板变量
             let html = template;
             for (const [key, value] of Object.entries(data)) {
-                html = html.replace(`{{${key}}}`, value);
+                html = html.replaceAll(`{{${key}}}`, value);
             }
-            html = html.replace('{{content}}', htmlContent);
+            html = html.replaceAll('{{content}}', htmlContent);
             
             // 压缩 HTML
             const minifiedHtml = minify(html, minifyOptions);
