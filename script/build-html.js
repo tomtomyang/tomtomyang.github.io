@@ -5,32 +5,34 @@ const matter = require('gray-matter');
 const { minify } = require('html-minifier');
 
 const TEMPLATE = './src/layout.html';
+const CONTENT_DIR = './src/content';
+const OUTPUT_DIR = '.';
+
+// HTML 压缩配置
+const HTML_MINIFY_OPTIONS = {
+    removeComments: true,
+    collapseWhitespace: true,
+    minifyCSS: true,
+    minifyJS: true,
+    removeEmptyAttributes: true,
+    removeRedundantAttributes: true,
+    removeScriptTypeAttributes: true,
+    removeStyleLinkTypeAttributes: true,
+    useShortDoctype: true
+};
 
 async function build() {
     // 读取模板
     const template = await fs.readFile(TEMPLATE, 'utf-8');
     
     // 读取所有 markdown 文件
-    const contentDir = './src/content';
-    const files = await fs.readdir(contentDir);
-    
-    // HTML 压缩配置
-    const minifyOptions = {
-        removeComments: true,
-        collapseWhitespace: true,
-        minifyCSS: true,
-        minifyJS: true,
-        removeEmptyAttributes: true,
-        removeRedundantAttributes: true,
-        removeScriptTypeAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        useShortDoctype: true
-    };
+    const files = await fs.readdir(CONTENT_DIR);
+
     
     // 处理每个 markdown 文件
     for (const file of files) {
         if (path.extname(file) === '.md') {
-            const content = await fs.readFile(path.join(contentDir, file), 'utf-8');
+            const content = await fs.readFile(path.join(CONTENT_DIR, file), 'utf-8');
             const { data, content: markdown } = matter(content);
             
             // 转换 markdown 为 HTML
@@ -44,10 +46,10 @@ async function build() {
             html = html.replaceAll('{{content}}', htmlContent);
             
             // 压缩 HTML
-            const minifiedHtml = minify(html, minifyOptions);
+            const minifiedHtml = minify(html, HTML_MINIFY_OPTIONS);
             
             // 写入文件到根目录
-            const outFile = path.join('./', file.replace('.md', '.html'));
+            const outFile = path.join(OUTPUT_DIR, file.replace('.md', '.html'));
             await fs.writeFile(outFile, minifiedHtml);
         }
     }
