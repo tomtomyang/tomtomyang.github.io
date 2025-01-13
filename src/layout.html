@@ -32,25 +32,18 @@
     <link rel="icon" href="public/icon/256.png" sizes="256x256" type="image/png">
     <link rel="apple-touch-icon" href="/public/icon/256.png">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=fallback">
 
-    <link rel="stylesheet" href="public/lib/new.min.css">
-    <link rel="stylesheet" href="public/lib/heti.min.css">
-    <script defer src="public/lib/heti-addon.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const heti = new Heti('.heti');
-            heti.autoSpacing();
-        });
-    </script>
+    <link rel="stylesheet" href="public/style/new.min.css">
 </head>
 <body>
     <header>
         <img src="public/image/profile.avif" width="128" height="128" style="border-radius: 50%;" alt="Tomtomyang">
     </header>
     <main>
-        <content class="heti heti--song">{{content}}</content>
+        <content>{{content}}</content>
     </main>
 </body>
 </html>

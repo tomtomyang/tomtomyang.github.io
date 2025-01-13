@@ -4,7 +4,7 @@ const { marked } = require('marked');
 const matter = require('gray-matter');
 const { minify } = require('html-minifier');
 
-const TEMPLATE = './src/template/layout.html';
+const TEMPLATE = './src/layout.html';
 
 async function build() {
     // 读取模板

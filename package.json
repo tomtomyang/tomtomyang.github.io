@@ -4,11 +4,16 @@
   "author": "tomtomyang@tencent.com",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "node script/build.js"
+    "build": "node script/build.js",
+    "serve": "http-server . -p 8080",
+    "dev": "npm run build && npm run serve"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
     "html-minifier": "^4.0.0",
     "marked": "^4.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
