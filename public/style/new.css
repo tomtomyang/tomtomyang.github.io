@@ -102,6 +102,8 @@ body {
 	color: var(--nc-tx-2);
 	font-size: 1.03rem;
 	line-height: 1.5;
+	-webkit-font-smoothing: subpixel-antialiased;
+	letter-spacing: .02em;
 }
 
 ::selection {
@@ -110,10 +112,19 @@ body {
 	color: var(--nc-ac-tx);
 }
 
+p {
+	text-align: justify;
+}
+
+p:not(:lang(zh)):not(:lang(ja)):not(:lang(ko)) {
+    text-align: start;
+}
+
 h1,h2,h3,h4,h5,h6 {
-	line-height: 1;
+	line-height: 1.4;
 	color: var(--nc-tx-1);
 	padding-top: .875rem;
+	letter-spacing: .05em;
 }
 
 h1,

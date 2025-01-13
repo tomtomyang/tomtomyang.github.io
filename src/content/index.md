@@ -1,8 +1,8 @@
 ---
-lang: en
+lang: zh
 title: Tomtomyang
-description: Tomtomyang's personal website
-keywords: Tomtomyang
+description: Tomtomyang 的个人主页
+keywords: Tomtomyang, Tomtom Yang
 ---
 
 欢迎访问 Tomtomyang 的个人主页！我是一个 JavaScript 和 TypeScript 开发者，你可以在 [Github](https://github.com/tomtomyang) 上找到我。我喜欢篮球、羽毛球、游泳等运动，热衷于购买球鞋和衣服，爱看没有流量明星的电影、电视剧，也喜欢旅行。
