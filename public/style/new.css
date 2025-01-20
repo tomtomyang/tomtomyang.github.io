@@ -1,5 +1,5 @@
 :root {
-	--nc-font-sans: 'Times New Roman', 'Noto Serif SC', system-ui, -apple-system, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	--nc-font-sans: 'Times New Roman', 'Noto Serif SC', serif, system-ui, -apple-system, "Apple Color Emoji", "Segoe UI Emoji";
 	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', Courier, monospace;
 
 	/* Light theme */
