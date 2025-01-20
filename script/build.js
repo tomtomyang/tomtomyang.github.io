@@ -7,7 +7,7 @@ const { minify } = require('html-minifier');
 const CleanCSS = require('clean-css');
 
 const SRC_DIR = './src';
-const OUTPUT_DIR = './dist';
+const OUTPUT_DIR = './docs';
 
 const TEMPLATE = `${SRC_DIR}/layout.html`;
 const CONTENT_DIR = `${SRC_DIR}/content`;
