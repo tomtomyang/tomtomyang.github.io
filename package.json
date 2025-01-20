@@ -4,8 +4,8 @@
   "author": "tomtomyang@tencent.com",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "node script/minify-css.js && node script/build-html.js",
-    "serve": "http-server . -p 8080",
+    "build": "node script/build.js",
+    "serve": "http-server ./dist -p 8080",
     "dev": "npm run build && npm run serve"
   },
   "devDependencies": {
