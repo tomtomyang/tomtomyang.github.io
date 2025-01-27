@@ -90,7 +90,7 @@ html,input,select,button {
 body {
 	/* Center body in page */
 	margin: 0 auto;
-	max-width: 750px;
+	max-width: 720px;
 	padding: 2rem;
 	border-radius: 6px;
 	overflow-x: hidden;
