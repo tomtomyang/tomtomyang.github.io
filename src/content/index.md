@@ -13,3 +13,4 @@ keywords: Tomtomyang, Tomtom Yang
 > 骑着驴骡思骏马，官居宰相望王侯。<br>
 > 只愁衣食耽劳碌，何怕阎君就取勾？<br>
 > 继子荫孙图富贵，更无一个肯回头！<br>
+> <cite>——《西游释厄传》</cite>

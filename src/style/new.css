@@ -459,3 +459,17 @@ input {
 img {
 	max-width: 100%;
 }
+
+cite {
+    font-style: italic;
+}
+
+br + cite {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+cite:not(br + cite) {
+    display: inline;
+}
