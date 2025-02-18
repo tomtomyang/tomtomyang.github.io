@@ -9,7 +9,7 @@ const CleanCSS = require('clean-css');
 const SRC_DIR = './src';
 const OUTPUT_DIR = './docs';
 
-const TEMPLATE = `${SRC_DIR}/layout.html`;
+const TEMPLATE_DIR = `${SRC_DIR}/template`;
 const CONTENT_DIR = `${SRC_DIR}/content`;
 const HTML_OUTPUT_DIR = `${OUTPUT_DIR}`;
 
@@ -32,7 +32,7 @@ const HTML_MINIFY_OPTIONS = {
 };
 
 async function buildHTML() {
-    async function build(template, file) {
+    async function build(file) {
         if (path.extname(file) !== '.md') return;
         
         const content = await fs.readFile(path.join(CONTENT_DIR, file), 'utf-8');
@@ -40,7 +40,12 @@ async function buildHTML() {
         
         const htmlContent = marked.parse(markdown);
 
-        let html = template;
+        let template = 'base';
+        if (data.template) {
+            template = data.template;
+        }
+
+        let html = await fs.readFile(path.join(TEMPLATE_DIR, `${template}.html`), 'utf-8');;
         for (const [key, value] of Object.entries(data)) {
             html = html.replaceAll(`{{${key}}}`, value);
         }
@@ -52,12 +57,10 @@ async function buildHTML() {
         await fs.writeFile(outFile, minifiedHtml);
     }
 
-
-    const template = await fs.readFile(TEMPLATE, 'utf-8');
     const files = await fs.readdir(CONTENT_DIR);
     
     await Promise.all(
-        files.map(file => build(template, file))
+        files.map(file => build(file))
     );
 }
 
