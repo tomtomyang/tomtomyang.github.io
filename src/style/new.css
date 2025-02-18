@@ -1,6 +1,7 @@
 :root {
-	--nc-font-sans: 'Times New Roman', 'Noto Serif SC', serif, system-ui, -apple-system, "Apple Color Emoji", "Segoe UI Emoji";
-	--nc-font-mono: Consolas, monaco, 'Ubuntu Mono', Courier, monospace;
+	--nc-font-sans: 'Inter', sans-serif, system-ui, -apple-system, "Apple Color Emoji", "Segoe UI Emoji";
+	--nc-font-serif: 'Noto Serif SC', serif, system-ui, -apple-system, "Apple Color Emoji", "Segoe UI Emoji";
+	--nc-font-mono: Consolas, monaco, monospace, system-ui, -apple-system, "Apple Color Emoji", "Segoe UI Emoji";
 
 	/* Light theme */
 	--nc-tx-1: #000000;
@@ -84,7 +85,7 @@ video {
 
 html,input,select,button {
 	/* Set body font family and some finicky elements */
-	font-family: var(--nc-font-sans);
+	font-family: var(--nc-font-serif);
 }
 
 body {

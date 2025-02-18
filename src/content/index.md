@@ -1,4 +1,6 @@
 ---
+lang: zh
+template: home
 title: Tomtomyang
 description: Tomtomyang 的个人主页
 keywords: Tomtomyang, Tomtom Yang
@@ -12,8 +14,14 @@ keywords: Tomtomyang, Tomtom Yang
 
 ---
 
-Welcome to Tomtomyang's personal website. This is the name I use at work. I enjoy playing basketball, badminton, and swimming. I'm passionate about collecting sneakers and clothes, love watching movies and TV shows featuring non-mainstream celebrities, and enjoy traveling.
+<p lang='en'>
+    Welcome to Tomtomyang's personal website. This is the name I use at work. I enjoy playing basketball, badminton, and swimming. I'm passionate about collecting sneakers and clothes, love watching movies and TV shows, and enjoy traveling.
+</p>
 
-Since 2021, I've been working in JavaScript-related development. At JD.com, I primarily focused on React Native and Node.js development; at Tencent, I worked on CDN, Edge Computing, JS Worker, and NestJS development; at ByteDance, I mainly worked on live streaming and Electron development.
+<p lang='en'>
+    Since 2021, I've been working in JavaScript-related development. At JD.com, I primarily focused on React Native and Node.js development; at Tencent, I worked on CDN, Edge Computing, JS Worker, and NestJS development; at ByteDance, I mainly worked on live streaming and Electron development.
+</p>
 
-Like many developers, I've tried various ways to build my own website but eventually gave up on all of them. Content is the soul of a website, so I decided to stop tinkering and keep this simplest personal homepage, hoping to spend my time producing valuable content instead.
+<p lang='en'>
+    Like many developers, I've tried various ways to build my own website but eventually gave up on all of them. Content is the soul of a website, so I decided to stop tinkering and keep this simplest personal homepage, hoping to spend my time producing valuable content instead.
+</p>

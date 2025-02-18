@@ -40,7 +40,7 @@ async function buildHTML() {
         
         const htmlContent = marked.parse(markdown);
 
-        let template = 'base';
+        let template = 'home';
         if (data.template) {
             template = data.template;
         }
