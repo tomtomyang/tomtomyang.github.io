@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "node script/build.js",
-    "serve": "http-server ./docs -p 8080",
+    "serve": "http-server ./docs -p 1234",
     "dev": "npm run build && npm run serve"
   },
   "devDependencies": {
