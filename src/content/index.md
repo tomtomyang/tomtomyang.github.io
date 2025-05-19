@@ -11,11 +11,11 @@ keywords: Tomtomyang, Tomtom Yang
 </p>
 
 <p lang='zh'>
-    自 2021 年起，我开始从事 JavaScript 开发工作。在京东，我主要做 React Native、Node.js 开发；在腾讯，我主要做 CDN、边缘计算、JS Worker、NestJS 开发；在字节跳动，我主要做直播、Electron 开发。
+    自 2021 年起，我开始从事 JavaScript 相关工作。在京东，我主要做 React Native、Node.js 开发；在腾讯，我主要做 CDN、边缘计算、JS Worker、NestJS 开发；在字节跳动，我主要做直播、Electron 开发。
 </p>
 
 <p lang='zh'>
-    我尝试过通过各种方式搭建个人网站，但总是难以坚持。最终我决定仅保留一个简单的主页。
+    我尝试过使用各种方式搭建个人网站，但总是难以坚持。最终，我决定仅保留这个简单的页面。
 </p>
 
 ---
